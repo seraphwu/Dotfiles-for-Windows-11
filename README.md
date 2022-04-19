@@ -1,4 +1,4 @@
-# Dotfiles for Microsoft Windows 11
+# Dotfiles for Microsoft Windows 11 fork from JMOrbegoso/Dotfiles-for-Windows-11
 
 Repeatable, reboot resilient Dotfiles script to setup a development environment in Microsoft Windows 11.
 
@@ -7,7 +7,7 @@ Repeatable, reboot resilient Dotfiles script to setup a development environment 
 Open any Windows PowerShell host console **(Except Windows Terminal)** with administrator rights and run:
 
 ```Powershell
-$GitHubRepositoryAuthor = "JMOrbegoso"; `
+$GitHubRepositoryAuthor = "seraphwu"; `
 $GitHubRepositoryName = "Dotfiles-for-Windows-11"; `
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; `
 Invoke-Expression (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/${GitHubRepositoryAuthor}/${GitHubRepositoryName}/main/Download.ps1");
